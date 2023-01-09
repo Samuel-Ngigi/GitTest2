@@ -1,0 +1,25 @@
+body{
+    padding: 50px;
+}
+form.sign-up{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    background-color: #EEEEEE;
+    padding: 50px;
+}
+h3{
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+form.btn-form{
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+}
+.has-account-btn{
+    color: rgb(10, 119, 207);
+    border-style: none;
+  }
