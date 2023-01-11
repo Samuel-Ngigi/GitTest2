@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/usersDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://127.0.0.1:27017/usersDB", {useNewUrlParser: true});
 //mongo "mongodb+srv://cluster0.7fp58pn.mongodb.net/myFirstDatabase" --username Admin-Samuel
 let  fName, lName, email, Password, confirmPassword;
 
